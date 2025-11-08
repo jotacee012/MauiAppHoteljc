@@ -1,5 +1,4 @@
-﻿
-using MauiAppHoteljc.Models;
+﻿using MauiAppHoteljc.Models;
 
 namespace MauiAppHoteljc
 {

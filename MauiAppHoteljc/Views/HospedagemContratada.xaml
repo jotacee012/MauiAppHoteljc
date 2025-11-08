@@ -6,7 +6,7 @@
              BackgroundColor="#141414">
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
-        <Label Text="Suíte Super Luxo"
+        <Label Text="{Binding QuartoSelecionado.Descricao}"
                TextColor="Aqua"
                FontFamily="Kalam"
                FontSize="50"
@@ -59,7 +59,8 @@
 
         <Button Text="Voltar"
                 HorizontalOptions="Center"
-                Clicked="Button_Clicked" />
+                Clicked="Button_Clicked" 
+                BackgroundColor="Aqua" />
 
     </VerticalStackLayout>
 </ContentPage>
